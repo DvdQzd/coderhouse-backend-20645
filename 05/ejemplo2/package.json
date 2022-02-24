@@ -1,0 +1,17 @@
+{
+  "name": "ejemplo2",
+  "version": "1.0.0",
+  "description": "esto es un ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
