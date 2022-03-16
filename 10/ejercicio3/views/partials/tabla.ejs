@@ -1,0 +1,26 @@
+<!-- historial table -->
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Edad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- if no datos -->
+        <% if (datos.length === 0) { %>
+            <tr>
+                <td colspan="3">No hay datos</td>
+            </tr>
+        <% }else{ %>
+        
+        <% for (let i = 0; i < datos.length; i++) { %>
+            <tr>
+                <td><%=datos[i].nombre%></td>
+                <td><%=datos[i].apellido%></td>
+                <td><%=datos[i].edad%></td>
+            </tr>
+        <% } } %>
+    </tbody>
+</table>
