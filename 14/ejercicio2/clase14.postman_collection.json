@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "2fe36038-472b-4913-91dd-754b8b32ae19",
+		"name": "clase14",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Perimetro",
+			"item": [
+				{
+					"name": "cuadrado",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/perimetro/cuadrado?lado=2",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"perimetro",
+								"cuadrado"
+							],
+							"query": [
+								{
+									"key": "lado",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "rectangulo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/perimetro/rectangulo?base=2&altura=4",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"perimetro",
+								"rectangulo"
+							],
+							"query": [
+								{
+									"key": "base",
+									"value": "2"
+								},
+								{
+									"key": "altura",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "circulo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/perimetro/circulo?radio=5",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"perimetro",
+								"circulo"
+							],
+							"query": [
+								{
+									"key": "radio",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Superficie",
+			"item": [
+				{
+					"name": "cuadrado",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/superficie/cuadrado?lado=2",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"superficie",
+								"cuadrado"
+							],
+							"query": [
+								{
+									"key": "lado",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "rectangulo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/superficie/rectangulo?base=2&altura=4",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"superficie",
+								"rectangulo"
+							],
+							"query": [
+								{
+									"key": "base",
+									"value": "2"
+								},
+								{
+									"key": "altura",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "circulo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/superficie/circulo?radio=5",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"superficie",
+								"circulo"
+							],
+							"query": [
+								{
+									"key": "radio",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
